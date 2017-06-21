@@ -14,3 +14,4 @@ parser.add_argument(u"-v", u"--verbose", action=u"store_true",
                     help=u"Be verbose [Default: False]")
 args = parser.parse_args()
 policy = setools.policyrep.SELinuxPolicy(args.policy)
+print("The End)
